@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### X-Live
 
-## Getting Started
+### ONLY FOR DESKTOP AND LAPTOP USERS
 
-First, run the development server:
+### X-Live is a live streaming platform that allows users to stream their content to their audience in real-time.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Clerk
+- Supabase
+- React Query
+- React Toastify
+- React Confetti
+- React Chat Elements
+- React Media Devices
+- React Social Icons
+- React Use
+- Recharts
+- Simple Peer
+- Canvas Confetti
+- Shadcn
+- Lucide React
+- Heroicons
+- Radix UI
+- Class Variance Authority
+- clsx
+- uuid
+- ws
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Clone the repository
+- Install dependencies
+- Set up environment variables
+- Run the development server
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+- To be added
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## WARNINGS
 
-## Deploy on Vercel
+- The code is not production ready
+- The code is not secure
+- The code is not optimized
+- The code is not tested
+- The code is not documented
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
