@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -18,27 +17,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider
-      publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
-      signInUrl="/sign-in"
-      signUpUrl="/sign-up"
-    >
-      <html lang="en">
-        <body className={`${inter.className} antialiased`}>
-          <main className="min-h-screen bg-black text-white">
-            <div className="hidden md:block">{children}</div>
-            <div className="md:hidden flex items-center justify-center min-h-screen p-4 text-center">
-              <div className="max-w-md">
-                <h1 className="text-2xl font-bold mb-4">Screen Too Small</h1>
-                <p>
-                  Please use a laptop or desktop computer with a screen width of
-                  at least 1220px for the best experience.
-                </p>
-              </div>
+    <html lang="en">
+      <body className={`${inter.className} antialiased`}>
+        <main className="min-h-screen bg-black text-white">
+          <div className="hidden md:block">{children}</div>
+          <div className="md:hidden flex items-center justify-center min-h-screen p-4 text-center">
+            <div className="max-w-md">
+              <h1 className="text-2xl font-bold mb-4">Screen Too Small</h1>
+              <p>
+                Please use a laptop or desktop computer with a screen width of
+                at least 1220px for the best experience.
+              </p>
             </div>
-          </main>
-        </body>
-      </html>
-    </ClerkProvider>
+          </div>
+        </main>
+      </body>
+    </html>
   );
 }
