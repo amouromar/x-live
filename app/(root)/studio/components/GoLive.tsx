@@ -54,8 +54,10 @@ const GoLive = () => {
           cursor-pointer
         `}
       >
-        <span className={`absolute inset-0 ${isLive ? 'bg-gradient-to-r from-red-500 to-red-600' : 'bg-gradient-to-r from-blue-500 to-purple-600'} animate-gradient`} />
-        <span className="relative z-10">{isLive ? 'End Live' : 'Go Live'}</span>
+        <span
+          className={`absolute inset-0 ${isLive ? "bg-gradient-to-r from-red-500 to-red-600" : "bg-gradient-to-r from-blue-500 to-purple-600"} animate-gradient`}
+        />
+        <span className="relative z-10">{isLive ? "End Live" : "Go Live"}</span>
       </Button>
 
       {showLink && (

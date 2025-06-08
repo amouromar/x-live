@@ -7,7 +7,7 @@ import React from "react";
 const DeviceSelection = () => {
   const [selectedMic, setSelectedMic] = React.useState<string | null>(null);
   const [selectedCamera, setSelectedCamera] = React.useState<string | null>(
-    null
+    null,
   );
 
   return (

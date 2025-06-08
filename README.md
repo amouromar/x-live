@@ -41,7 +41,6 @@
 
 - To be added
 
-
 ## WARNINGS
 
 - The code is not production ready
@@ -49,4 +48,3 @@
 - The code is not optimized
 - The code is not tested
 - The code is not documented
-
