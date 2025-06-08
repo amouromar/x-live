@@ -29,7 +29,7 @@ export default function Home() {
                 Go Live
               </Button>
             </Link>
-            <Link href="/home">
+            <Link href="/stream">
               <Button className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600">
                 Home
               </Button>
