@@ -4,13 +4,16 @@ import FeedPreview from "./components/FeedPreview";
 import Configuration from "./components/Configuration";
 import GoLive from "./components/GoLive";
 import { Ellipsis } from "lucide-react";
+import Link from "next/link";
 
 const Studio = () => {
   return (
     <div className="flex flex-col gap-4 p-6 h-screen">
       {/* Header */}
       <header className="flex flex-col gap-0">
-        <h1 className="text-2xl font-bold">X-Live Studio</h1>
+        <Link href="/">
+          <h1 className="text-2xl font-bold">X-Live Studio</h1>
+        </Link>
         <div className="flex items-center gap-2">
           <h1 className="text-sm font-semibold text-gray-400">Amour Omar</h1>
           <span className="text-xs text-gray-600">@amour</span>

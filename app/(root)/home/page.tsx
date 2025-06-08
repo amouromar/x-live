@@ -4,6 +4,7 @@ import Description from "./components/Description";
 import Chat from "./components/Chat";
 import Donate from "./components/Donate";
 import { CircleUser } from "lucide-react";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -11,7 +12,9 @@ const Home = () => {
       {/* Header */}
       <header className="flex flex-row justify-between items-center gap-0">
         <div>
-          <h1 className="text-4xl font-bold">X-Live</h1>
+        <Link href="/">
+          <h1 className="text-2xl font-bold">X-Live Studio</h1>
+        </Link>
         </div>
         <div className="flex items-center gap-2">
           <CircleUser className="w-12 h-12 cursor-pointer text-gray-500" />
